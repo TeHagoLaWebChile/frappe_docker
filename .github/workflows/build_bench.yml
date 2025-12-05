@@ -3,7 +3,7 @@ name: Bench
 on:
   pull_request:
     branches:
-      - main
+      - none #main
     paths:
       - images/bench/**
       - docker-bake.hcl

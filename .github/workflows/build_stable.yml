@@ -3,7 +3,7 @@ name: Stable build
 on:
   pull_request:
     branches:
-      - main
+      - none #main
     paths:
       - images/production/**
       - overrides/**
